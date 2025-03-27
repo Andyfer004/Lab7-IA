@@ -66,3 +66,9 @@ Los resultados se muestran gráficamente con barras que comparan el número de v
 
 ```bash
 pip install numpy matplotlib json-c
+```
+Conclusión General
+Este laboratorio 7 demuestra cómo la inteligencia artificial puede aplicarse a juegos clásicos como Conecta 4, permitiendo comparar enfoques basados en aprendizaje (Q-Learning) con estrategias deterministas (Minimax y Alpha-Beta). A través del entrenamiento y simulación de partidas, se evidencia que los métodos de búsqueda todavía tienen una ventaja clara frente a agentes que aprenden desde cero, especialmente cuando se usan tablas Q discretas y pocas partidas de entrenamiento.
+
+Sin embargo, también se ilustra el potencial del aprendizaje por refuerzo para mejorar progresivamente mediante la experiencia. Con ajustes adecuados en los hiperparámetros, más entrenamiento y técnicas más modernas como Deep Q-Learning, el agente puede aspirar a competir en condiciones más justas contra algoritmos clásicos.
+
